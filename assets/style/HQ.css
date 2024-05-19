@@ -180,6 +180,7 @@
 		height: 100%;
 		width: 50%;
 		text-align: right;
+		
 
 	}
 	.servizi_text_container2{
@@ -189,12 +190,14 @@
 		
 	}
 	.servizi_title{
-		font-size: 55px;
+		font-size: 45px;
 		text-transform: uppercase;
 		color: #75554A;
+		margin: 0px 20px 0px 20px;
 	}
 	.servizi_text{
 		font-size: 35px;
+		margin: 0px 20px 0px 20px;
 	}
 	.footer{
 		bottom: 50px;

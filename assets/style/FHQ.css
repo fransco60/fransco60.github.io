@@ -190,9 +190,11 @@
 		font-size: 60px;
 		text-transform: uppercase;
 		color: #75554A;
+		margin: 0px 20px 0px 20px;
 	}
 	.servizi_text{
 		font-size: 40px;
+		margin: 0px 20px 0px 20px;
 	}
 .footer{
 		bottom: 50px;

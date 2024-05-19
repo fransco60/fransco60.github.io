@@ -152,13 +152,12 @@
 		.pres3{
 		width: 100%;
 		min-height: 1080px;
-		
 	}
 	.container{
 		margin: 20px 0px 20px 0px;
 		width: 100%;
 		height: 400px;
-		background-color: white;
+		background-color: #FFFAF4;
 		outline: solid #75554A;
 	}
 	.servizi_image_container{
@@ -166,21 +165,34 @@
 		width: 50%;
 		overflow-y: hidden;
 		float: left;
+		outline: solid #75554A;
+	}
+	.servizi_image_container2{
+		height: 100%;
+		width: 50%;
+		overflow-y: hidden;
+		float: right;
+		outline: solid #75554A;
 	}
 	.servizi_text_container{
 		height: 100%;
 		width: 50%;
 		text-align: right;
+
+	}
+	.servizi_text_container2{
+		height: 100%;
+		width: 50%;
+		text-align: left;
+		
 	}
 	.servizi_title{
-		margin-right: 20px;
 		font-size: 60px;
 		text-transform: uppercase;
 		color: #75554A;
 	}
 	.servizi_text{
 		font-size: 40px;
-		margin-right: 20px;
 	}
 .footer{
 		bottom: 50px;

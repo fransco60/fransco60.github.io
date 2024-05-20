@@ -174,6 +174,22 @@
 		float: right;
 		outline: solid #75554A;
 	}
+		.servizi_image_container2 img{
+		display: inline;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		vertical-align: middle;
+		
+		
+	}
+	.servizi_image_container img{
+		display: inline;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		vertical-align: middle;
+	}
 	.servizi_text_container{
 		height: 100%;
 		width: 50%;

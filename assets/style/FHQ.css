@@ -117,7 +117,7 @@
 	}
 	.pres2
 	{
-		height: 1100px;
+		min-height: 1100px;
 		min-width: 100%;
 	}
 	.pres2_container{

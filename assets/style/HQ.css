@@ -116,7 +116,7 @@
 	}
 	.pres2
 	{
-		height: 900px;
+		min-height: 900px;
 		min-width: 100%;
 	}
 	.pres2_container{
@@ -168,6 +168,7 @@
 		overflow-y: hidden;
 		float: left;
 		outline: solid #75554A;
+		
 	}
 	.servizi_image_container2{
 		height: 100%;
@@ -175,6 +176,11 @@
 		overflow-y: hidden;
 		float: right;
 		outline: solid #75554A;
+	}
+	.servizi_image_container2 img{
+		display: inline;
+		vertical-align: middle;
+		
 	}
 	.servizi_text_container{
 		height: 100%;

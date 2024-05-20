@@ -1,17 +1,227 @@
 @charset "utf-8";
 @import url('https://fonts.cdnfonts.com/css/poppins');
 @media (max-width : 480px ){
-		* {
-    margin: 0;
-    padding: 0;
-	list-style: 0;
-	text-decoration: 0;
-}
 
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		max-width: 100%;
+		overflow-x: hidden;
+		font-family: 'Poppins', sans-serif;
+	}
 	.header{
 		width: 100%;
-		height: 50px;
+		height: 300px;
 		display: block;
-		background-color: #766A5E;
+		background-color: white;
+		box-shadow: 10px 0px 5px 5px #66453A;
+		
+	}
+	.inner_header{
+		width: 1000px;
+		height: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+			
+	}
+	.logo{
+		width: 100%
+	}
+	.logo_container{
+		padding-right: 9px;
+		height: 80%;
+		width: 30%;
+		display: block;
+		margin: auto;
+	}
+	.logo_container h1{
+		height: auto;
+		display: table-cell;
+		vertical-align: top;
+	}
+	.navigation{
+		padding-left: 10px;
+		height: auto;
+	}
+	.navigation a{
+		height: 100%;
+		display: inline-block;
+		padding: 0px 15px;
+	}
+	.navigation a li{
+		display: table-cell;
+		vertical-align: middle;
+		color: black;
+		font-size: 30px;
+		font-family: 'Poppins', sans-serif;
+		text-transform: uppercase;
+		transition-duration: 1s;
+	}
+	.navigation a li:hover{
+		color: #66453A;
+		text-shadow: 1px 1.5px 3px #766A53;
+	}
+	body{
+		background-color: antiquewhite;
+	}
+	.pres{
+		width: 1920px;
+		height: 1080px;
+		position: relative;
+		display: block;
+		z-index: 0;
+		overflow-y: hidden;
+	}
+	#sfondo{
+		position: absolute;
+		z-index: 1;
+		min-height: 1080px;
+		min-width: 1920px;
+		right: 0;
+		top: 3px;
+		bottom: 0;
+		display: block;
+		overflow-y: hidden;
+		
+	}
+			
+	.sovraimpr{
+	position: absolute;
+	bottom: 0px;
+  	background: rgba(117,85,74,0.77);
+  	color: #f1f1f1;
+	font-family: 'Poppins', sans-serif;
+  	padding: 30px;
+	width: 100%;
+	z-index: 2;
+	display: block;
+	overflow-y: hidden;
+	}
+	.Head_font{
+		font-size: 60px;
+		text-shadow: 1px 1px 3px black;
+		text-transform: uppercase;
+	}
+	.Secondary_font{
+		font-size: 30px;
+		text-shadow: 1px 1px 4px black;
+	}
+	.divider{
+		min-width: 100%;
+		min-height: 10px;
+		background-color: rgba(117,85,74,1.00);
+	}
+	.pres2
+	{
+		min-height: 900px;
+		min-width: 100%;
+	}
+	.pres2_container{
+		
+		height: 100%;
+		width: 1500px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		overflow-y: hidden;
+	}
+	.img_button{
+		list-style: none;
+		text-align: center;
+	}
+	.img_button li{
+		display: inline-block;
+		vertical-align: middle;
+		list-style: none;
+		padding: 0px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		margin: 50px;
+	}
+	.info{
+		width: 70%;
+		border-radius: 5%;
+		padding: 0px;
+		box-shadow: 1px 1px 10px 1px black;
+		transition-duration: 1s;
+	}
+	.info:hover{
+		width: 90%;
+	}
+		.pres3{
+		width: 100%;
+		min-height: 1080px;
+	}
+	.container{
+		margin: 20px 0px 20px 0px;
+		width: 100%;
+		height: 400px;
+		background-color: #FFFAF4;
+		outline: solid #75554A;
+	}
+	.servizi_image_container{
+		height: 100%;
+		width: 50%;
+		overflow-y: hidden;
+		float: left;
+		outline: solid #75554A;
+		
+	}
+	.servizi_image_container2{
+		height: 100%;
+		width: 50%;
+		overflow-y: hidden;
+		float: right;
+		outline: solid #75554A;
+	}
+	.servizi_image_container2 img{
+		display: inline;
+		vertical-align: middle;
+		
+	}
+	.servizi_text_container{
+		height: 100%;
+		width: 50%;
+		text-align: right;
+		
+
+	}
+	.servizi_text_container2{
+		height: 100%;
+		width: 50%;
+		text-align: left;
+		
+	}
+	.servizi_title{
+		font-size: 45px;
+		text-transform: uppercase;
+		color: #75554A;
+		margin: 0px 20px 0px 20px;
+	}
+	.servizi_text{
+		font-size: 35px;
+		margin: 0px 20px 0px 20px;
+	}
+	.footer{
+		bottom: 50px;
+		width: 100%;
+		height: 500px;
+		background-color: white;
+		margin: auto;
+		text-align: center;
+	}
+	.footercontainer{
+		height: 100%;
+		width: 1000px;
+		margin: auto;
+	}
+	.footer_logo_container{
+		width: 40%;
+		margin: auto;
+		
 	}
 }
+

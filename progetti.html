@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Servizi | Studio Tecnico Polimeni
+    </title>
+    <link href="assets/style/medium_screen.css" rel="stylesheet" type="text/css">
+<head>
+        <link rel="stylesheet" href="assets/style/FHQ.css">
+		<link rel="stylesheet" href="assets/style/phone.css">
+		<link rel="stylesheet" href="assets/style/HQ.css">
+		<link rel="stylesheet" href="assets/style/medium_screen.css">
+		<link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+		<script src="jquery.js"></script>
+	</head>
+<body>
+	<div class="header"><!--Finestra informativa-->
+		<div class="inner_header ">
+			<div class= "logo_container">
+				<h1><img class="logo" src="assets/img/logo.png" alt="Logo"></h1><!--logo-->
+			</div>	
+		<ul class="navigation"><!--Pulsanti reindirizzamento pagine-->
+			<a href="index.html"><li>home</li></a>
+			<a href="servizi.html"><li>Servizi</li></a>		
+			<a href="progetti.html"><li>Progetti</li></a>
+			<a href="progetti.html"><li>Chi siamo</li></a>
+			<a href=""><li>CONTATTI</li></a>
+		</ul>
+	</div>
+</div>
+<!--Fine header-->
+<div class="pres3">
+<div class="conteiner3_1">
+<div class="container3">
+<div class="cover" id="sposta"><div class="cover_container"><p class="servizi_title" id="testa">prima</p><p class="servizi_text" id="corpo">ciao</p></div></div>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="assets/img/progetti/Prima1/Prima (1).jpg">
+  </div>
+
+  <div class="mySlides1">
+    <img src="assets/img/progetti/Prima1/Prima (2).jpg">
+  </div>
+
+  <div class="mySlides1">
+    <img src="assets/img/progetti/Prima1/Prima (3).jpg">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+			 <!-- Slideshow container -->
+<div class="slideshow-container2">
+  <div class="mySlides2">
+    <img src="assets/img/progetti/Dopo1/Dopo.jpeg">
+  </div>
+
+  <div class="mySlides2">
+    <img src="assets/img/progetti/Dopo1/Dopo (1).jpg">
+  </div>
+
+  <div class="mySlides2">
+    <img src="assets/img/progetti/Dopo1/Dopo (2).jpg">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+</div>
+<div class="pulsante_container"><p><button class="pulsante_p" id="btn1" onClick="move()">Cambia!</button></p></div>
+</div>
+<div class="container3_1">
+</div>
+</div>
+<br>
+<!--Footer-->
+<div class="divider"></div>
+<div class="footer">
+	<div class="footercontainer">
+		<div class="footer_logo_container">
+			<h1><img class="logo" src="assets/img/logo.png" alt="logo">
+			</h1>
+		</div>
+		<p><b>Informazioni utili</b></p>
+		<p><a href="mailto:polimeni.marcantonio@gmail.com">polimeni.marcantonio@gmail.com</a><br>Tel. <a href="tel:+39 345 621 0575">+39 345 621 0575</a></p>
+		<p>Studio tecnico MP di Marcantonio Polimeni</p>
+		<p class="bottom_p">2024 by Francesco Careri</p>
+	</div>
+</div>
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+ function move(){
+	if(document.getElementById("sposta").style.left =="0%")
+		{document.getElementById("sposta").style.left ="50%";
+		 document.getElementById("testa").innerHTML="prima";
+		}
+	else{
+		document.getElementById("sposta").style.left ="0%";
+		document.getElementById("testa").innerHTML="dopo";
+	}
+}
+</script>
+</body>
+</html>

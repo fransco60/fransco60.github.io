@@ -310,6 +310,14 @@
 	#btn1{
 		left: 0%;
 		right: 0%;
+		text-align: left;
+		transition-duration: 0.2s;
+	}
+	#btn2{
+		left: 0%;
+		right: 0%;
+		text-align: left;
+		transition-duration: 0.2s;
 	}
 	.pulsante_p{
 		position: absolute;
@@ -322,7 +330,6 @@
 		border: none;
 		padding: 3px;
 		transition: 0.2s;
-		text-align: center;
 		
 	}
 	.pulsante_p:hover{

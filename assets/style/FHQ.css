@@ -444,6 +444,16 @@
   background-color: #f1f1f1;
   color: black;
 }
+	.press4{
+		min-height: 1000px;
+	}
+	.container4{
+		margin: 20px 0px 20px 0px;
+		width: 100%;
+		min-height: 500px;
+		background-color: #FFFAF4;
+		outline: solid #75554A;
+	}
 .footer{
 		bottom: 50px;
 		width: 100%;

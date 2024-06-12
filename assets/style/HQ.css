@@ -476,6 +476,55 @@
   background-color: #f1f1f1;
   color: black;
 }
+	.press4{
+		min-height: 1000px;
+	}
+	.container4{
+		margin: 20px 0px 20px 0px;
+		width: 100%;
+		min-height: 1000px;
+		background-color: #FFFAF4;
+		outline: solid #75554A;
+	}
+	.me{
+		min-height: 400px;
+		width: 30%;
+		float: left;
+	}
+	.info1{
+		margin-top: 10px;
+		min-height: 400px;
+		width: 70%;
+		float: right;
+	}
+	.info1 p{
+		font-size: 20px;
+	}
+	.info1 ul{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.info1 ul li{
+		font-size: 20px;
+	}
+	.foto_me{
+		margin: 10px 0 0 0px;
+		text-align: center;
+	}
+	.foto_me img{
+		border: solid #75554A;
+	}
+	.posizione{ 
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.posizione p{
+		font-size: 20px;
+	}
+	.posizione img{
+		border: solid #75554A
+	}
 	.footer{
 		bottom: 50px;
 		width: 100%;

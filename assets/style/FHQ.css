@@ -465,8 +465,13 @@
 		width: 70%;
 		float: right;
 	}
+	.info1 h1{
+		text-transform: uppercase;
+		color: #75554A;
+	}
 	.info1 p{
 		font-size: 20px;
+		margin-right: 400px;
 	}
 	.info1 ul{
 		font-size: 20px;

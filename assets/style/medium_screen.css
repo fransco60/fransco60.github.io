@@ -525,7 +525,7 @@
 	.form_container button {
   background-image: radial-gradient(100% 100% at 100% 0, #FFFAF4 0, #75554A 100%);
   border-radius: 100px;
-  box-shadow: rgba(117,85,74,0.70) 0 -25px 18px -14px inset,rgba(117,85,74,0.70) 0 1px 2px,rgba(117,85,74,0.70) 0 2px 4px,rgba(117,85,74,0.70) 0 4px 8px,rgba(117,85,74,0.70) 0 8px 16px,rgba(117,85,74,0.70) 0 16px 32px;
+  box-shadow: rgba(117,85,74,0.2) 0 -25px 18px -14px inset,rgba(117,85,74,0.15) 0 1px 2px,rgba(117,85,74,0.15) 0 2px 4px,rgba(117,85,74,0.15) 0 4px 8px,rgba(117,85,74,0.15) 0 8px 16px,rgba(117,85,74,0.15) 0 16px 32px;
   color: #FFFAF4;
   cursor: pointer;
   display: inline-block;
@@ -542,7 +542,7 @@
 }
 
 .form_container button:hover {
-  box-shadow: rgba(117,85,74,0.25) 0 -25px 18px -14px inset,rgba(117,85,74,0.25) 0 1px 2px,rgba(117,85,74,0.25) 0 2px 4px,rgba(117,85,74,0.25) 0 4px 8px,rgba(117,85,74,0.25) 0 8px 16px,rgba(117,85,74,0.25) 0 16px 32px;
+  box-shadow: rgba(117,85,74,0.35) 0 -25px 18px -14px inset,rgba(117,85,74,0.25) 0 1px 2px,rgba(117,85,74,0.25) 0 2px 4px,rgba(117,85,74,0.25) 0 4px 8px,rgba(117,85,74,0.25) 0 8px 16px,rgba(117,85,74,0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
 	.form_container{

@@ -472,7 +472,7 @@
 	}
 	.info1 p{
 		font-size: 20px;
-		margin-right: 400px;
+		margin-right: 100px;
 	}
 	.info1 ul{
 		font-size: 20px;
@@ -482,11 +482,12 @@
 		font-size: 20px;
 	}
 	.foto_me{
-		margin: 10px 0 0 0px;
+		margin: 90px 0 0 0px;
 		text-align: center;
 	}
 	.foto_me img{
 		border: solid #75554A;
+		width: 60%;
 	}
 	.posizione{ 
 		width: 100%;

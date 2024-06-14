@@ -531,10 +531,10 @@
 		border: solid #75554A
 	}
 	.press5{
-		min-height: 1000px;
+		min-height: 600px;
 	}
 	.form_container{
-		margin: 30px 0px 10px 0px;
+		margin: 30px 0px 30px 0px;
 		min-height: 600px;
 		width: 100%;
 		background-color: #FFFAF4;
@@ -545,10 +545,16 @@
 	.contatti_left{
 		height: 500px;
 	}
+	.contatti{
+		border-radius: 5px;
+		margin: 0px 10px;
+		padding: 5px;
+	}
 	.contatti2{
 		margin: 10px 10px 10px 10px;
 		width: 300px;
 		height: 300px;
+		padding: 10px;
 		resize: none;
 		border-radius: 15px;
 	}

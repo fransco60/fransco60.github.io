@@ -499,11 +499,11 @@
 	.posizione img{
 		border: solid #75554A
 	}
-		.press5{
-		min-height: 1000px;
+.press5{
+		min-height: 600px;
 	}
 	.form_container{
-		margin: 30px 0px 10px 0px;
+		margin: 30px 0px 30px 0px;
 		min-height: 600px;
 		width: 100%;
 		background-color: #FFFAF4;

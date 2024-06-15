@@ -567,7 +567,8 @@
 		font-size: 100px;
 	}
 	.ringraziamento p{
-		font-size: 60px;
+		font-size: 40px;
+		margin: 0px 20px 0px 20px;
 	}
 	.footer{
 		bottom: 50px;

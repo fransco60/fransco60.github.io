@@ -576,15 +576,18 @@
 		background-color: white;
 		margin: auto auto 0px auto;
 		text-align: center;
+		overflow-y: hidden;
 	}
 	.footercontainer{
 		height: 100%;
 		width: 1000px;
 		margin: auto;
+		overflow-y: hidden;
 	}
 	.footer_logo_container{
 		width: 40%;
 		margin: auto;
+		overflow-y: hidden;
 		
 	}
 }

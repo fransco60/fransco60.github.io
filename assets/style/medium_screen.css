@@ -244,6 +244,42 @@
 		font-size: 35px;
 		margin: 0px 20px 0px 20px;
 	}
+	.spiegazione{
+		text-align: center;
+		background-color: rgba(117,85,74,0.77);
+		text-transform: uppercase;
+		width: 100%;
+		min-height: 200px;
+		outline: solid rgba(117,85,74,1.00);
+		
+	}
+	.spiegazione_testo h1{
+		color: antiquewhite;
+		font-size: 50px;
+		text-shadow: 0px 0px 2px black;
+	}
+	.spiegazione_testo p{
+		font-size: 40px;
+		text-shadow: 1px 1px 1 black;
+	}
+	.spiegazione{
+		text-align: center;
+		background-color: rgba(117,85,74,0.77);
+		text-transform: uppercase;
+		width: 100%;
+		min-height: 200px;
+		outline: solid rgba(117,85,74,1.00);
+		
+	}
+	.spiegazione_testo h1{
+		color: antiquewhite;
+		font-size: 50px;
+		text-shadow: 0px 0px 2px black;
+	}
+	.spiegazione_testo p{
+		font-size: 40px;
+		text-shadow: 1px 1px 1 black;
+	}
 .conteiner3_1{
 		margin: 20px 0px 20px 0px;
 		width: 100%;

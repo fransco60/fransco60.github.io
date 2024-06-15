@@ -511,12 +511,18 @@
 		color: #75554A;
 	}
 	.contatti_left{
-		height: 500px;
+		height: 600px;
+	}
+	.contatti{
+		border-radius: 5px;
+		margin: 0px 10px;
+		padding: 5px;
 	}
 	.contatti2{
 		margin: 10px 10px 10px 10px;
 		width: 300px;
 		height: 300px;
+		padding: 10px;
 		resize: none;
 		border-radius: 15px;
 	}

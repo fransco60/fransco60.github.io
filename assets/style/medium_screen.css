@@ -346,6 +346,9 @@
 	.fa{
 		overflow-y: hidden;
 	}
+	.corpo{
+		font-size: 30px;
+	}
 	.cover_container{
 		height: 47%;
 		width: 80%;
@@ -556,6 +559,9 @@
 		border-radius: 5px;
 		margin: 0px 10px;
 		padding: 5px;
+		width: 50%;
+		height: 50%;
+		
 	}
 	.contatti2{
 		margin: 10px 10px 10px 10px;

@@ -346,8 +346,11 @@
 	.fa{
 		overflow-y: hidden;
 	}
-	.corpo{
-		font-size: 25px;
+	#corpo{
+		font-size: 30px;
+	}
+	#corpo1{
+		font-size: 30px;
 	}
 	.cover_container{
 		height: 47%;

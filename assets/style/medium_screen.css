@@ -117,12 +117,12 @@
 	overflow-y: hidden;
 	}
 	.Head_font{
-		font-size: 60px;
+		font-size: 50px;
 		text-shadow: 1px 1px 3px black;
 		text-transform: uppercase;
 	}
 	.Secondary_font{
-		font-size: 30px;
+		font-size: 25px;
 		text-shadow: 1px 1px 4px black;
 	}
 	.divider{
@@ -235,13 +235,13 @@
 		
 	}
 	.servizi_title{
-		font-size: 45px;
+		font-size: 40px;
 		text-transform: uppercase;
 		color: #75554A;
 		margin: 0px 20px 0px 20px;
 	}
 	.servizi_text{
-		font-size: 35px;
+		font-size: 30px;
 		margin: 0px 20px 0px 20px;
 	}
 	.spiegazione{
@@ -543,7 +543,7 @@
 		border: solid #75554A
 	}
 .press5{
-		min-height: 100vh;
+		min-height: 600px;
 		display: flex;
 	}
 	.form_container{
@@ -596,6 +596,7 @@
 }
 	.press6{
 		min-height: 600px;
+		display: flex;
 	}
 	.ringraziamento{
 		margin: 30px 0px 30px 0px;

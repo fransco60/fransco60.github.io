@@ -81,7 +81,7 @@
 		text-shadow: 1px 1.5px 3px #766A53;
 	}
 	body{
-		background-color: antiquewhite;
+		background-color: white;
 	}
 	.pres{
 		width: 1920px;
@@ -132,8 +132,11 @@
 	}
 	.pres2
 	{
-		min-height: 900px;
-		min-width: 100%;
+		width: 100%;
+		min-height: 1080px;
+		background-color: antiquewhite;
+		position: relative;
+		z-index: -1;
 	}
 	.pres2_container{
 		
@@ -171,6 +174,9 @@
 		.pres3{
 		width: 100%;
 		min-height: 1080px;
+		background-color: antiquewhite;
+		position: relative;
+		z-index: -1;
 	}
 .container{
 		margin: 20px 0px 20px 0px;
@@ -213,6 +219,10 @@
 		vertical-align: middle;
 		
 		
+	}
+	.differenza{
+		width: 490px;
+		height: 400px; 
 	}
 	.servizi_image_container img{
 		display: inline;
@@ -488,7 +498,11 @@
   color: black;
 }
 	.press4{
-		min-height: 1000px;
+		width: 100%;
+		min-height: 1080px;
+		background-color: antiquewhite;
+		position: relative;
+		z-index: -1;
 	}
 	.container4{
 		margin: 20px 0px 20px 0px;
@@ -541,10 +555,14 @@
 	}
 	.posizione img{
 		border: solid #75554A;
+		border-width: thick;
 	}
 .press5{
-		min-height: 600px;
-		display: flex;
+		width: 100%;
+		min-height: 1080px;
+		background-color: antiquewhite;
+		position: relative;
+		z-index: -1;
 	}
 	.form_container{
 		margin: 30px 0px 30px 0px;
@@ -595,8 +613,11 @@
   transform: scale(1.05) rotate(-1deg);
 }
 	.press6{
-		min-height: 600px;
-		display: flex;
+		width: 100%;
+		min-height: 1080px;
+		background-color: antiquewhite;
+		position: relative;
+		z-index: -1;
 	}
 	.ringraziamento{
 		margin: 30px 0px 30px 0px;

@@ -139,7 +139,7 @@
 		min-height: 1080px;
 		background-color: antiquewhite;
 		position: relative;
-		z-index: -1;
+		margin-top: 5px;
 	}
 	.pres2_container{
 		
@@ -175,7 +175,7 @@
 		min-height: 1080px;
 		background-color: antiquewhite;
 		position: relative;
-		z-index: -1;
+		margin-top: 5px;
 	}
 	.container{
 		margin: 20px 0px 20px 0px;
@@ -471,7 +471,7 @@
 		min-height: 1080px;
 		background-color: antiquewhite;
 		position: relative;
-		z-index: -1;
+		margin-top: 5px;
 	}
 	.container4{
 		margin: 20px 0px 20px 0px;
@@ -529,7 +529,7 @@
 		min-height: 1080px;
 		background-color: antiquewhite;
 		position: relative;
-		z-index: -1;
+		margin-top: 5px;
 	}
 	.form_container{
 		margin: 30px 0px 30px 0px;
@@ -584,7 +584,7 @@
 		min-height: 1080px;
 		background-color: antiquewhite;
 		position: relative;
-		z-index: -1;
+		margin-top: 5px;
 	}
 	.ringraziamento{
 		margin: 30px 0px 30px 0px;
@@ -615,7 +615,7 @@
 	.footercontainer{
 		height: 100%;
 		width: 1000px;
-		margin: auto;
+		margin: auto auto 20px auto;
 		overflow-y: hidden;
 	}
 	.footer_logo_container{
@@ -623,4 +623,4 @@
 		margin: auto;
 		overflow-y: hidden;
 	}
-}
+

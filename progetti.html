@@ -120,6 +120,48 @@
 </div>
 <div class="container3_1">
 </div>
+</div>
+<div class="conteiner3_1">
+<div class="container3">
+<div class="cover" id="sposta2"><div class="cover_container"><p class="servizi_title" id="testa2">prima</p><p class="servizi_text" id="corpo2">Rifacimento facciata con modifica parapetti balcone</p></div>
+<div class="pulsante_p_container"><button class="pulsante_p" id="btn3" onClick="move4();move5()"><i id="freccia2" class="fa">&#xf0a8;</i></button></div></div>
+<div class="slideshow-container5">
+  <div class="mySlides5">
+    <img src="assets/img/progetti/Prima3/Prima(1).jpg">
+  </div>
+
+  <div class="mySlides5">
+    <img src="assets/img/progetti/Prima3/Prima(2).jpg">
+  </div>
+
+  <div class="mySlides5">
+    <img src="assets/img/progetti/Prima3/Prima(3).jpg">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+</div>
+			 <!-- Slideshow container -->
+<div class="slideshow-container6">
+  <div class="mySlides6">
+    <img src="assets/img/progetti/Dopo3/Dopo (1).jpg">
+  </div>
+
+  <div class="mySlides6">
+    <img src="assets/img/progetti/Dopo3/Dopo (2).jpg">
+  </div>
+
+  <div class="mySlides6">
+    <img src="assets/img/progetti/Dopo3/Dopo (3).jpg">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+</div>
+</div>
+<div class="pulsante_container"><p></p></div>
+</div>
+<div class="container3_1">
 </div>	
 <!--Footer-->
 <div class="divider"></div>
@@ -138,12 +180,14 @@
 </div>
 <script src="https://kit.fontawesome.com/35f34c69a9.js" crossorigin="anonymous"></script>
 <script>
-let slideIndex = [1,1,1,1];
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+let slideIndex = [1,1,1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
 
 
 function plusSlides(n, no) {
@@ -201,7 +245,28 @@ function showSlides(n, no) {
 		 document.getElementById("freccia1").innerHTML="&#xf0a8;"
 
 	}
-}	
+}
+function move4(){
+	if(document.getElementById("sposta2").style.left =="0%")
+		{document.getElementById("sposta2").style.left ="50%";
+		 document.getElementById("testa2").innerHTML="prima";
+		}
+	else{
+		document.getElementById("sposta2").style.left ="0%";
+		document.getElementById("testa2").innerHTML="dopo";
+	}
+}
+ function move5(){
+	if(document.getElementById("sposta2").style.left =="0%")
+		{
+		 document.getElementById("freccia2").innerHTML="&#xf0a9;";
+
+		}
+	else{
+		 document.getElementById("freccia2").innerHTML="&#xf0a8;"
+
+	}
+}
 </script>
 </body>
 </html>

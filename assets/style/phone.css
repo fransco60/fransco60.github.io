@@ -277,6 +277,7 @@
 		min-height: 800px;
 		background-color: #FFFAF4;
 		outline: solid #75554A;
+		outline-width: thick;
 		position: relative;
 		z-index: 1;
 		overflow-y: hidden;
@@ -285,6 +286,7 @@
 		width: 100%;
 		height: 90%;
 		outline: solid #75554A;
+		outline-width: thick;
 		position: absolute;
 		z-index: 1;
 		overflow-y: hidden;

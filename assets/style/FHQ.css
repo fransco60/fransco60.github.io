@@ -482,6 +482,7 @@
 		display: inline;
 		vertical-align: top;
 		object-fit: cover;
+		object-position: 20% 70%;
 	}
 	.mySlides6 img{
 		width: 100%;
